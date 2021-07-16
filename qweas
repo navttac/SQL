@@ -1,0 +1,19 @@
+The SQL ALTER TABLE command is used to add, delete or modify columns in an existing table.
+You would also use ALTER TABLE command to add and drop various constraints on an existing table
+use employees;
+select first_name from employees;
+select first_name from employees;
+select 89+1 as SUM;
+select concat(first_name," ",last_name) as Name from employees where salary>=100000;
+SELECT CURRENT_TIMESTAMP;
+
+SELECT CURRENT_TIME;
+ SELECT COUNT(*) AS "RECORDS" FROM employees;
+ select sum(salary)  from salaries;
+select max(salary)  from salaries;
+select min(salary)  from salaries;
+select avg(salary) from salaries;
+
+
+
+
